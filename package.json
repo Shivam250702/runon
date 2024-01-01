@@ -1,0 +1,33 @@
+{
+  "name": "My editor",
+  "version": "0.0.4",
+  "description": "Assign",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "http-server ./dist/",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "daisyui",
+    "daisy",
+    "tailwind",
+    "drag-and-drop",
+    "website-builder",
+    "mobile-builder",
+    "app-builder",
+    "html-builder",
+    "html-editor",
+    "page-builder",
+    "site-generator",
+    "site-builder",
+    "grapesjs",
+    "ui-builder",
+    "no-code",
+    "nocode"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^3.0.1"
+  },
+  "license": "MIT"
+}
